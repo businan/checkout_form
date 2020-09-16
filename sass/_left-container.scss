@@ -1,0 +1,75 @@
+.left-container {
+    margin-right: 100px;
+    margin-left: 15%;
+    #contact,#shipping{
+        font-size: 1.1rem;
+        font-family: $leftContainerFont;
+        color: $leftContainerPrimaryFontColor;
+        font-weight: bold;
+        width: 370px;
+    }
+    label {
+        display: block;
+        margin: 10px 0;
+        font-size: 0.75rem;
+        font-family: $leftContainerFont;
+        color: $leftContainerSecondaryFontColor;
+    }
+    input, select{
+        padding: 8px 5px 8px 35px;
+        border: 1px solid $infoBoxColorAndBackgroundColor;
+        color: $leftContainerSecondaryFontColor;
+        font-size: 0.9rem;
+        width: 100%;
+        border-radius: 5px;
+    }
+    .input-area {
+        position: relative;
+        i {
+            position: absolute;
+            top: 9px;
+            left: 8px;
+        }
+    }
+    .shipping-address {
+        margin-top: 50px;
+    }
+    .country-postcode {
+        margin-top: 30px;
+        display: flex;
+        .input-area {
+            margin-right: 10px;
+            i {
+                top: 45px;
+            }
+        }
+    }
+    .checkbox-area {
+        display: flex;
+        margin-top: 10px;
+        input{
+            margin: 10px 10px 10px -175px;
+        }
+        label {
+            margin-left: -170px;
+        }
+    }
+    #continue-button {
+        position: relative;
+       #button-submit {
+        background-color: $attentionColor;
+        color: $otherColor;
+        padding: 14px 0;
+        border-radius: 10px;
+        font-weight: 600;
+        text-align: center;
+        position: absolute;
+        right: 0;
+        margin: 20px -50px 0 0; 
+        width: 20%;
+        border: none;
+    } 
+    }
+    
+
+}

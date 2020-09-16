@@ -1,0 +1,73 @@
+.right-container {
+    height: 360px;
+    width: 360px;
+    margin-right: 5%;
+    border-radius: 10px;
+    padding: 10px 25px;
+    background-color: $rightContainerBackgroundColor;
+
+    .product {
+        display: flex;
+        font-family: $leftContainerFont;
+        img {
+            
+            height:  110px;
+            width: 95px;
+            border-radius: 10px;
+            margin:10px 25px 0 0;
+        }
+        h2 {
+            margin: 15px 0 -10px 0;
+            color: $listItemsColor;
+            font-size: 1rem;
+            
+        }
+        h2 + p {
+            color: $attentionColor;
+            font-size: 1rem;
+            font-weight: 600;
+            span {
+                text-decoration: line-through;
+                font-size: 0.75rem;
+                color: $listItemsColor;
+                font-weight: 400;
+                margin: 5px 0 5px 5px;
+            }
+        }
+        .amount {
+            border: 1px solid $listItemsBorderColor ;
+            border-radius: 5px;
+            width: 100px;
+            height: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        
+            p {
+                font-size: 0.75rem;
+            }
+            button {
+                background-color: $buttonBorderColor;
+                border-radius: 5px;
+                padding: 5px;
+                border: none;
+                
+                i {
+                font-size: 0.75rem;
+            }
+            }
+            
+        }
+    }
+    .payment {
+        position: relative;
+        bottom: -60px;
+        font-family: $leftContainerFont;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-top: 1px solid $shippingAndTotalBorderColor;;
+        height: 30px;
+        width: 290px;
+    }
+}
