@@ -18,6 +18,21 @@ body .container main, html .container main {
   display: flex;
 }
 
+@media (max-width: 800px) {
+  main {
+    flex-wrap: wrap-reverse;
+  }
+  main .right-container {
+    margin: 10px auto;
+  }
+  main .left-container {
+    margin: 10px auto 10px 40px;
+  }
+
+  .container {
+    margin-bottom: 100px;
+  }
+}
 .left-container {
   margin-right: 100px;
   margin-left: 15%;
@@ -111,21 +126,23 @@ body .container main, html .container main {
   margin: 10px 25px 0 0;
 }
 .right-container .product h2 {
-  margin: 15px 0 -10px 0;
+  margin: 15px 0 15px 0;
   color: #4e5150;
   font-size: 1rem;
 }
-.right-container .product h2 + p {
+.right-container .product p, .right-container .product #sale-price-1, .right-container .product #sale-price-2 {
+  display: inline;
   color: #f2994a;
   font-size: 1rem;
   font-weight: 600;
+  margin-right: 5px;
 }
-.right-container .product h2 + p span {
+.right-container .product p span, .right-container .product #sale-price-1 span, .right-container .product #sale-price-2 span {
   text-decoration: line-through;
   font-size: 0.75rem;
   color: #4e5150;
   font-weight: 400;
-  margin: 5px 0 5px 5px;
+  margin: 5px 0 5px 0;
 }
 .right-container .product .amount {
   border: 1px solid #888888;
@@ -135,9 +152,11 @@ body .container main, html .container main {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin-top: 10px;
 }
 .right-container .product .amount p {
   font-size: 0.75rem;
+  color: #4e5150;
 }
 .right-container .product .amount button {
   background-color: #e0e0e0;

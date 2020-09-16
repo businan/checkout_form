@@ -21,3 +21,18 @@ body, html {
 
     }
 }
+@media (max-width:800px){
+    main{
+        flex-wrap: wrap-reverse;
+        .right-container {
+            margin: 10px auto;
+        }
+        .left-container {
+            margin: 10px auto 10px 40px;
+            
+        }      
+    }
+    .container {
+        margin-bottom: 100px;
+    }
+}
