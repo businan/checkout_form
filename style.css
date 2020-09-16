@@ -43,13 +43,13 @@ body .container main, html .container main {
   }
   main .left-container {
     margin: 10px auto 10px 20px;
-    width: 70%;
+    width: 75%;
   }
   main .left-container .checkbox-area input {
-    margin: 10px 10px 10px -130px;
+    margin: 10px 10px 10px -140px;
   }
   main .left-container .checkbox-area label {
-    margin-left: -125px;
+    margin-left: -135px;
   }
 
   .container {
