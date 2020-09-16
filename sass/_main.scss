@@ -36,3 +36,27 @@ body, html {
         margin-bottom: 100px;
     }
 }
+@media (max-width:500px){
+    main{
+        flex-wrap: wrap-reverse;
+        .right-container {
+            margin: 10px auto;
+            width: 80%;
+        }
+        .left-container {
+            margin: 10px auto 10px 20px;
+            width: 70%;
+            .checkbox-area {
+                input{
+                    margin: 10px 10px 10px -130px;;
+                }
+                label{
+                    margin-left: -125px;
+                }
+            }
+        }      
+    }
+    .container {
+        margin-bottom: 100px;
+    }
+}

@@ -33,6 +33,29 @@ body .container main, html .container main {
     margin-bottom: 100px;
   }
 }
+@media (max-width: 500px) {
+  main {
+    flex-wrap: wrap-reverse;
+  }
+  main .right-container {
+    margin: 10px auto;
+    width: 80%;
+  }
+  main .left-container {
+    margin: 10px auto 10px 20px;
+    width: 70%;
+  }
+  main .left-container .checkbox-area input {
+    margin: 10px 10px 10px -130px;
+  }
+  main .left-container .checkbox-area label {
+    margin-left: -125px;
+  }
+
+  .container {
+    margin-bottom: 100px;
+  }
+}
 .left-container {
   margin-right: 100px;
   margin-left: 15%;
