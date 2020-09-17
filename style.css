@@ -165,6 +165,7 @@ body .container main, html .container main {
   font-size: 1rem;
   font-weight: 600;
   margin-right: 5px;
+  text-decoration: none;
 }
 .right-container .product p span, .right-container .product #sale-price-1 span, .right-container .product #sale-price-2 span {
   text-decoration: line-through;
