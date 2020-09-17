@@ -47,11 +47,17 @@ body, html {
             margin: 10px auto 10px 20px;
             width: 75%;
             .checkbox-area {
+                position: relative;
+                margin-top: 15px;
+
                 input{
-                    margin: 10px 10px 10px -140px;;
+                    position: absolute;
+                    //margin: 10px 10px 10px -140px;;
+                    left: 35px;
                 }
                 label{
-                    margin-left: -135px;
+                    position: absolute;
+                    left: 200px;
                 }
             }
         }      
